@@ -11,7 +11,7 @@
 
 /* small laptop up */
 @media screen and (min-width: 768px){
-    .desktop-up{
+    .desktop-sm-up{
         display: block;
     }
 

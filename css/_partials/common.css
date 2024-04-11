@@ -1,3 +1,7 @@
 .tablet-up{
     display: none;
 }
+
+.desktop-sm-up{
+    display: none;
+}

@@ -3,7 +3,9 @@
     --color-green: #d4f9bb;
     --color-light: #eaeaea;
     --color-gray: #b1b1b1;
-    --background-color-dark-green: 009588;
+    --color-azure: #8fdafc;
+    --background-color-dark-green: #009588;
+    --background-color-light-green: #dcdbd4;
 
     /* font sizes */
     --font-xs: .875rem;

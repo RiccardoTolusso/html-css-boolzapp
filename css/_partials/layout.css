@@ -1,6 +1,12 @@
 body{
     display: flex;
     height: 100vh;
+    background: linear-gradient(
+        var(--background-color-dark-green) 0%,
+        var(--background-color-dark-green) 20%,
+        var(--background-color-light-green) 20%,
+        var(--background-color-light-green) 100%
+    );
 }
 
 /*+ APP */
@@ -20,23 +26,26 @@ body{
     width: 100%;
 }
 
+/*> top-section */
+.col .top-section{
+    height: 70px;/*BUG*/
+    flex-shrink: 0;
+    background-color: var(--color-light);
+}
+
 /*+ CHAT */
 .app .col.chat{
     width: 100%;
 }
 
 /*> top-section */
-.chat .top-section{
-    height: 70px;/*BUG*/
-    flex-shrink: 0;
-    background-color: var(--color-light);
-}
 
 /*> messages-section */
 .chat .messages-section{
     background-image: url(../../img/mine.jpg);
     height: 100%;
     width: 100%;
+    overflow-y: scroll;
 }
 
 /*> input-section */
@@ -46,3 +55,26 @@ body{
     background-color: white;
 }
 
+/*+ MENU */
+.menu{
+    border-right: 1px solid var(--color-gray);
+}
+/*> top-section */
+/*> notify-section */
+.menu .notify-section{
+    height: 70px;
+    background-color: var(--color-azure);
+    flex-shrink: 0;
+}
+/*> search-section */
+.menu .search-section{
+    height: 50px;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+/*> chats-section */
+.menu .chats-section{
+    height: 100%;
+    overflow-y: auto;
+}
