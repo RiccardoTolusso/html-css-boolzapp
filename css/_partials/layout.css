@@ -20,7 +20,35 @@ body{
 }
 
 /*+ CHAT */
+.chat{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.chat > div{
+    width: 100%;
+}
+
 /*> top-section */
+.chat .top-section{
+    height: 70px;/*BUG*/
+    flex-shrink: 0;
+    background-color: var(--color-light);
+}
+
 /*> messages-section */
+.chat .messages-section{
+    background-image: url(../../img/mine.jpg);
+    height: 100%;
+    width: 100%;
+}
+
 /*> input-section */
+.chat .input-section{
+    height: 70px;/*BUG*/
+    flex-shrink: 0;
+    background-color: white;
+}
+
+}
 
