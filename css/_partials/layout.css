@@ -185,6 +185,9 @@ body{
 .menu .chats-section .closed-chat{
     position: relative;
 }
+.menu .chats-section .closed-chat:hover{
+    background-color: var(--color-light);
+}
 .menu .chats-section .closed-chat .last-time{
     position: absolute;
     top: 1.2rem;
