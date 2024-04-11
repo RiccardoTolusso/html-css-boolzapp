@@ -67,6 +67,38 @@ body{
     height: 100%;
     width: 100%;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+  /*>> message  */
+.messages-section .message{
+    max-width: 50%;
+    margin: 0.5rem 10%;
+    background-color: white;
+    padding: 1rem 2rem 1.5rem 1rem;
+    border-radius: .625rem;
+    position: relative;
+}
+.messages-section .message:first-child{
+    margin-top: 3rem;
+}
+.messages-section .message i{
+    position: absolute;
+    color: var(--color-gray);
+    top: 1.5rem;
+    right: 12px;
+}
+.messages-section .message .time{
+    position: absolute;
+    font-size: var(--font-xs);
+    color: var(--color-gray);
+    bottom: .125rem;
+    right: .125rem;
+}
+.messages-section .message.msg-sent{
+    background-color: var(--color-green);
+    align-self: flex-end;
 }
 
 /*> input-section */
@@ -160,3 +192,4 @@ body{
     font-size: var(--font-xs);
     color: var(--color-gray);
 }
+
