@@ -16,6 +16,10 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .chat .input-section{
+        padding: 0 1rem;
+    }
 } 
 
 /* small laptop up */
@@ -32,7 +36,7 @@
     }
 
     .col.menu{
-        width: 30%;
+        width: 320px;
         flex-shrink: 0;
     }   
 }
