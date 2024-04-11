@@ -1,0 +1,29 @@
+/* from tablet up */
+@media screen and (min-width: 480px){
+    .tablet-up{
+        display: block;
+    }
+    .col.menu{
+        width: 6.5rem;
+        flex-shrink: 0;
+    }
+} 
+
+/* small laptop up */
+@media screen and (min-width: 768px){
+    .desktop-up{
+        display: block;
+    }
+
+    .app{
+        height: 90%;
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;    
+    }
+
+    .col.menu{
+        width: 30%;
+        flex-shrink: 0;
+    }   
+}

@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+
+/*+ APP */
+.app{
+    background-color: red;/*BUG*/
+    width: 100%;
+    display: flex;
+}
+
+.app .col{
+    border: 1px dotted black; /* BUG */
+}
+
+.app .col.chat{
+    width: 100%;
+    background-color: green;
+}
+
+/*+ CHAT */
+/*> top-section */
+/*> messages-section */
+/*> input-section */
+
