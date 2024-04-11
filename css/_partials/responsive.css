@@ -3,8 +3,12 @@
     .app .tablet-up{
         display: block;
     }
+
+    .app .col.menu .tablet-up{
+        display: flex;
+    }
+
     .col.menu{
-        width: 6.5rem;
         flex-shrink: 0;
     }
 

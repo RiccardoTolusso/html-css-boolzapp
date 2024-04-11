@@ -49,7 +49,10 @@ body{
     font-size: var(--font-xs);
     color: var(--color-gray);
 }
-
+.col .buttons i{
+    color: var(--color-gray);
+    padding-right: 0.9rem;
+}
 
 /*+ CHAT */
 .app .col.chat{
