@@ -1,17 +1,22 @@
 /* from tablet up */
 @media screen and (min-width: 480px){
-    .tablet-up{
+    .app .tablet-up{
         display: block;
     }
     .col.menu{
         width: 6.5rem;
         flex-shrink: 0;
     }
+
+    .col .top-section{
+        display: flex;
+        justify-content: space-between;
+    }
 } 
 
 /* small laptop up */
 @media screen and (min-width: 768px){
-    .desktop-sm-up{
+    .app .desktop-sm-up{
         display: block;
     }
 

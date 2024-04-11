@@ -16,22 +16,40 @@ body{
     background-color: white;
 }
 
-.app .col{
+.col{
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.app .col > div{
+.col > div{
     width: 100%;
 }
 
-/*> top-section */
+/*+ COL */
 .col .top-section{
-    height: 70px;/*BUG*/
     flex-shrink: 0;
     background-color: var(--color-light);
 }
+.col .user{
+    padding: .4375rem;
+    display: flex;
+    align-items: center;
+}
+.col .user img{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+}
+.col .user .text{
+    padding-left: 1.25rem;
+}
+.col .user .text .description{
+    font-size: var(--font-xs);
+    color: var(--color-gray);
+}
+
 
 /*+ CHAT */
 .app .col.chat{
@@ -53,6 +71,11 @@ body{
     height: 70px;/*BUG*/
     flex-shrink: 0;
     background-color: white;
+    display: flex;
+}
+.chat .input-section input{
+    width: 100%;
+    padding: 1.875rem;
 }
 
 /*+ MENU */

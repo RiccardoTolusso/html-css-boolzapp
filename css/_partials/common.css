@@ -1,7 +1,11 @@
-.tablet-up{
+.app .tablet-up{
     display: none;
 }
 
-.desktop-sm-up{
+.app .desktop-sm-up{
     display: none;
+}
+
+h3{
+    font-size: var(--font-large);
 }
