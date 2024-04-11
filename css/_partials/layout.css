@@ -5,27 +5,23 @@ body{
 
 /*+ APP */
 .app{
-    background-color: red;/*BUG*/
     width: 100%;
     display: flex;
+    background-color: white;
 }
 
 .app .col{
-    border: 1px dotted black; /* BUG */
-}
-
-.app .col.chat{
-    width: 100%;
-    background-color: green;
-}
-
-/*+ CHAT */
-.chat{
     display: flex;
     flex-direction: column;
     height: 100%;
 }
-.chat > div{
+
+.app .col > div{
+    width: 100%;
+}
+
+/*+ CHAT */
+.app .col.chat{
     width: 100%;
 }
 
@@ -48,7 +44,5 @@ body{
     height: 70px;/*BUG*/
     flex-shrink: 0;
     background-color: white;
-}
-
 }
 
